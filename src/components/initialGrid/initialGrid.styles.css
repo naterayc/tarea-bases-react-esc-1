@@ -1,0 +1,20 @@
+.initialGrid {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+.grid-item{
+    width: 33.33%;
+}
+
+.grid-item img{
+    height: 100%;
+    width: 100%;
+}
+
+.grid-item-bottom{
+    width: 100%;
+}

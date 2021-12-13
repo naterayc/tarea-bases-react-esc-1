@@ -7,7 +7,6 @@ const GalleryGrid = ({ title, items }) => {
             <h1 className="title">{title.toUpperCase()}</h1>
             <div className="row">
                 {items
-                    .filter((photo, idx) => idx < 4)
                     .map(({ id, ...otherPhotoProps }) => (
                         <Photo key={id} {...otherPhotoProps} />
                     ))}

@@ -1,0 +1,8 @@
+.photo{
+    max-width: 85%;
+    margin: auto;
+}
+
+.photo > img {
+    width: 100%;
+}

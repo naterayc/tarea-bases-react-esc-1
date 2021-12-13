@@ -1,4 +1,4 @@
-const pictures_data = [
+const PICTURES_DATA = [
     {
         id:1,
         title: "Nature",
@@ -112,3 +112,5 @@ const pictures_data = [
         ]
     }
 ]
+
+export default PICTURES_DATA;

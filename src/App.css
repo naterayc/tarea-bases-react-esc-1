@@ -13,16 +13,23 @@ footer{
 
 footer > p{
   margin: 0;
+  font-family: 'Nunito', sans-serif;
 }
 
 
 header{
+  padding: .5rem;
+  background-color: #D80275;
+}
+
+header > a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: .5rem;
-  background-color: #D80275;
+  text-decoration: none;
   color: #fff;
+  width: fit-content;
+  margin: auto;
 }
 
 header > img {
@@ -31,7 +38,7 @@ header > img {
   margin-right: 1rem;
 }
 
-header > p {
+header > a > p {
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
   font-size: 2rem;

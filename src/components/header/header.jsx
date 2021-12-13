@@ -1,11 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png';
 
 const Header = () => {
-    return(
+    return (
         <header>
-            <img alt='logo' src={logo} />
-            <p>FrameIt</p>
+            <Link to='/'>
+                <img alt='logo' src={logo} />
+                <p>FrameIT</p>
+            </Link>
         </header>
     )
 }
